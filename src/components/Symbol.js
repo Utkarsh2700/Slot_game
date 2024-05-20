@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // Cache to store already created image elements
 const cache = {};
@@ -15,10 +15,11 @@ class Symbol {
     if (cache[name]) {
       this.img = cache[name].cloneNode();
     } else {
-      console.log(name,'name')
+      console.log(name, "name");
 
       this.img = new Image();
-      this.img.src = require(`../assets/symbols/${this.name}.svg`);
+      // this.img.src = require(`../assets/symbols/${name}.svg`);
+      this.img.src = require(`../assets/images/${name}.jpg`);
       cache[name] = this.img;
     }
   }
@@ -28,16 +29,27 @@ class Symbol {
   }
 
   static get symbols() {
+    // return [
+    //   "at_at",
+    //   "c3po",
+    //   "darth_vader",
+    //   "death_star",
+    //   "falcon",
+    //   "r2d2",
+    //   "stormtrooper",
+    //   "tie_ln",
+    //   "yoda",
+    // ];
     return [
-      "at_at",
-      "c3po",
-      "darth_vader",
-      "death_star",
-      "falcon",
-      "r2d2",
-      "stormtrooper",
-      "tie_ln",
-      "yoda",
+      "7",
+      "banana",
+      "bar",
+      "berry",
+      "bigwin",
+      "blue",
+      "dollar",
+      "lemon",
+      "melon",
     ];
   }
 

@@ -1,8 +1,8 @@
 body {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   padding: 1rem;
-  background-image: url("./assets/bg.jpg");
+  background-image: url("./assets/index-banner-bg.png");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -31,11 +31,11 @@ body {
   position: relative;
 }
 
-.reel>.icons {
+.reel > .icons {
   position: relative;
 }
 
-.reel>.icons>img {
+.reel > .icons > img {
   width: calc(100% + 6px);
   margin: -3px 0 0 -3px;
   height: auto;
@@ -45,7 +45,8 @@ body {
 }
 
 #controls {
-  background-color: rgba(255, 255, 255, 0.9);
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  background-color: #bf2fba;
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -78,7 +79,7 @@ input[type="checkbox"] {
   transform: scaleY(-1);
 }
 
-#slot.inverted .reel>.icons>img {
+#slot.inverted .reel > .icons > img {
   transform: scaleY(-1);
 }
 
@@ -94,4 +95,19 @@ input[type="checkbox"] {
 }
 .inverted {
   transform: rotate(180deg);
+}
+
+#spin {
+  height: 50px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 2px 2px #e0f7fa;
+}
+
+#titleText {
+  text-shadow: -3px -3px 4px #fde047;
+}
+
+#balance {
+  text-shadow: -2px -2px 2px #fff;
 }
