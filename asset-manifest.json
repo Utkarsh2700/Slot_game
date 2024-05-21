@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/Slot_game/static/css/main.96c3650c.css",
-    "main.js": "/Slot_game/static/js/main.044488ec.js",
+    "main.js": "/Slot_game/static/js/main.c115d3e5.js",
     "static/media/index-banner-bg.png": "/Slot_game/static/media/index-banner-bg.25d9828cad3fa67ba02e.png",
-    "static/media/bar.jpg": "/Slot_game/static/media/bar.a709f65ab4dd9b3d8b4c.jpg",
-    "static/media/berry.jpg": "/Slot_game/static/media/berry.7ba64b24284f5f07410b.jpg",
-    "static/media/bigwin.jpg": "/Slot_game/static/media/bigwin.5fec327d0d868eee1d11.jpg",
-    "static/media/banana.jpg": "/Slot_game/static/media/banana.10c7daadc7286bdb4783.jpg",
-    "static/media/melon.jpg": "/Slot_game/static/media/melon.dc44f4fc98b4b4907b90.jpg",
-    "static/media/7.jpg": "/Slot_game/static/media/7.92c92c581b8ddaf8e069.jpg",
+    "static/media/2.png": "/Slot_game/static/media/2.542d9350cdefe713669e.png",
+    "static/media/3.png": "/Slot_game/static/media/3.cc25af7af5b6c6339403.png",
+    "static/media/1.png": "/Slot_game/static/media/1.dd185fcbb8d20328c42c.png",
+    "static/media/4.png": "/Slot_game/static/media/4.fbf70b6d16e1bce96e9f.png",
+    "static/media/5.png": "/Slot_game/static/media/5.8e4246aa028e68c0020e.png",
     "index.html": "/Slot_game/index.html",
     "main.96c3650c.css.map": "/Slot_game/static/css/main.96c3650c.css.map",
-    "main.044488ec.js.map": "/Slot_game/static/js/main.044488ec.js.map"
+    "main.c115d3e5.js.map": "/Slot_game/static/js/main.c115d3e5.js.map"
   },
   "entrypoints": [
     "static/css/main.96c3650c.css",
-    "static/js/main.044488ec.js"
+    "static/js/main.c115d3e5.js"
   ]
 }
