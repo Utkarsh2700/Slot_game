@@ -19,7 +19,8 @@ class Symbol {
 
       this.img = new Image();
       // this.img.src = require(`../assets/symbols/${name}.svg`);
-      this.img.src = require(`../assets/images/${name}.jpg`);
+      // this.img.src = require(`../assets/images/${name}.jpg`);
+      this.img.src = require(`../assets/graphics/${name}.png`);
       cache[name] = this.img;
     }
   }
@@ -40,17 +41,19 @@ class Symbol {
     //   "tie_ln",
     //   "yoda",
     // ];
-    return [
-      "7",
-      "banana",
-      "bar",
-      "berry",
-      "bigwin",
-      "blue",
-      "dollar",
-      "lemon",
-      "melon",
-    ];
+    // return [
+    //   "7",
+    //   "banana",
+    //   "bar",
+    //   "berry",
+    //   "bigwin",
+    //   "blue",
+    //   "dollar",
+    //   "lemon",
+    //   "melon",
+    // ];
+
+    return ["1", "2", "3", "4", "5", "1", "2", "3", "4", "5"];
   }
 
   static random() {

@@ -118,10 +118,10 @@ import { FaMinusCircle } from "react-icons/fa";
 
 const Slot = ({ config }) => {
   const [currentSymbols, setCurrentSymbols] = useState(
-    Array(5).fill(Array(3).fill("7"))
+    Array(5).fill(Array(3).fill("1"))
   );
   const [nextSymbols, setNextSymbols] = useState(
-    Array(5).fill(Array(3).fill("7"))
+    Array(5).fill(Array(3).fill("1"))
   );
   const [isSpinning, setIsSpinning] = useState(false);
   const [resultMessage, setResultMessage] = useState("");
@@ -274,5 +274,3 @@ const Slot = ({ config }) => {
 };
 
 export default Slot;
-
-//  Changing images

@@ -104,7 +104,7 @@ const Reel = ({ idx, initialSymbols, nextSymbols, onSpinEnd }) => {
         },
       ],
       {
-        duration: factor * 1000,
+        duration: factor * 400,
         easing: "ease-in-out",
       }
     );
