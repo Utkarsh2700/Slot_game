@@ -1,9 +1,13 @@
 body {
   /* width: 100vw;
   height: 100vh; */
-  padding: 1rem;
+  /* padding: 1rem; */
   background-image: url("./assets/index-banner-bg.png");
-  background-size: cover;
+  /* background-image: url(./assets/Untitled-33.png); */
+  background-size: auto, auto;
+  /* background-image: url(./assets/Untitled-33.png); */
+  /* background-size: cover; */
+  /* background-size: 945px 697px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +20,15 @@ body {
   }
 }
  */
+
+.App {
+  background-image: url(./assets/f1.png);
+  background-size: cover;
+  /* background-size: 945px 697px; */
+  /* background-size: auto, auto; */
+  background-repeat: no-repeat;
+  background-position: top;
+}
 #reels {
   display: flex;
   width: 100vw;
@@ -46,7 +59,7 @@ body {
 
 #controls {
   /* background-color: rgba(255, 255, 255, 0.9); */
-  background-color: #bf2fba;
+  /* background-color: #bf2fba; */
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -85,8 +98,8 @@ input[type="checkbox"] {
 
 #slot {
   text-align: center;
-  /* Add other styles as necessary */
 }
+
 .icons {
   display: flex;
   justify-content: center;

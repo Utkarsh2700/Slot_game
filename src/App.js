@@ -14,9 +14,11 @@ const config = {
 
 function App() {
   return (
-    <div className="App">
-      {/* hello */}
-      <Slot config={config} />
+    <div className="App_Parent">
+      <div className="App">
+        {/* hello */}
+        <Slot config={config} />
+      </div>
     </div>
   );
 }

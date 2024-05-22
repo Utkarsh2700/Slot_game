@@ -191,11 +191,15 @@ const Slot = ({ config }) => {
 
   return (
     <div id="slot" className={config.inverted ? "inverted" : ""}>
-      <h1 className="text-5xl text-yellow-300 font-extrabold " id="titleText">
+      {/* <h1 className="text-5xl text-yellow-300 font-extrabold " id="titleText">
         STARBURST
-      </h1>
-      <div id="walletHome">
-        <div className="flex justify-between mt-3 items-center">
+      </h1> */}
+      <div id="walletHome" className="mt-1">
+        <h1 className="text-5xl text-yellow-300 font-extrabold " id="titleText">
+          STARBURST
+        </h1>
+
+        <div className="flex justify-between items-center">
           <div className="flex items-center">
             <FaHome className=" text-white bg-fuchsia-800 rounded-full text-3xl mx-4 " />
           </div>
@@ -233,10 +237,10 @@ const Slot = ({ config }) => {
           SPIN
         </button>
 
-        <div className="flex mr-4 bg-blue-gradient  rounded">
+        <div className="flex mr-4 bg-blue-gradient rounded">
           <button>
             <FaMinusCircle
-              className={`text-red-600 text-4xl  ${
+              className={`text-red-600 text-3xl  ${
                 betAmount === 0
                   ? "opacity-50 cursor-not-allowed"
                   : "animate-pulse"
@@ -249,12 +253,12 @@ const Slot = ({ config }) => {
             />
           </button>
           <ul className="text-center text-white">
-            <li className="uppercase">Total Bet</li>
+            <li className="">Total Bet</li>
             <li>{betAmount}</li>
           </ul>
           <button>
             <FaPlusCircle
-              className={`text-green-600 text-4xl  ${
+              className={`text-green-600 text-3xl  ${
                 betAmount >= 1000
                   ? "opacity-50 cursor-not-allowed"
                   : "animate-pulse"
