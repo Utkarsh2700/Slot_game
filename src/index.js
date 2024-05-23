@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import Poker from "./components/poker/Poker";
 import {
   Route,
   RouterProvider,
@@ -14,7 +15,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="slot" element={<App />} />
-      <Route path="poker" element={<App />} />
+      <Route path="poker" element={<Poker />} />
       <Route path="fishing" element={<App />} />
     </Route>
   )

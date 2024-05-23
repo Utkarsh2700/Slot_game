@@ -2,11 +2,14 @@ body {
   /* width: 100vw;
   height: 100vh; */
   /* padding: 1rem; */
-  background-image: url("./assets/index-banner-bg.png");
+
+  /* background-image: url("./assets/index-banner-bg.png"); */
+  background-image: url("../public/bg.jpeg");
+
   /* background-image: url(./assets/Untitled-33.png); */
-  background-size: auto, auto;
+  /* background-size: auto, auto; */
   /* background-image: url(./assets/Untitled-33.png); */
-  /* background-size: cover; */
+  background-size: cover;
   /* background-size: 945px 697px; */
   display: flex;
   align-items: center;
@@ -22,9 +25,9 @@ body {
  */
 
 .App {
-  background-image: url(./assets/f1.png);
-  background-size: cover;
-  /* background-size: 945px 697px; */
+  /* background-image: url("../public/Frame.png"); */
+  /* background-size: cover; */
+  background-size: 945px 697px;
   /* background-size: auto, auto; */
   background-repeat: no-repeat;
   background-position: top;
@@ -51,7 +54,7 @@ body {
 .reel > .icons > img {
   width: calc(100% + 6px);
   margin: -3px 0 0 -3px;
-  height: auto;
+  height: calc(100% - 200px);
 
   /* enable gpu accelaration, fixes iOS flicker */
   transform: translate3d(0, 0, 0);
@@ -109,6 +112,10 @@ input[type="checkbox"] {
 .inverted {
   transform: rotate(180deg);
 }
+/* #home-img {
+  height: 100px;
+  width: 100px;
+} */
 
 #spin {
   height: 50px;
@@ -116,11 +123,47 @@ input[type="checkbox"] {
   color: white;
   text-shadow: 1px 2px 2px #e0f7fa;
 }
-
+#play_img {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #titleText {
   text-shadow: -3px -3px 4px #fde047;
 }
 
 #balance {
   text-shadow: -2px -2px 2px #fff;
+}
+/* src/App.css */
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 60px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: white;
+}
+
+.rank {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.suit {
+  font-size: 24px;
+  color: red;
 }

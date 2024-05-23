@@ -1,0 +1,89 @@
+/* src/App.css
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 60px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.top-left-suit,
+.bottom-right-suit {
+  position: absolute;
+}
+
+.top-left-suit {
+  top: 5px;
+  left: 5px;
+}
+
+.bottom-right-suit {
+  bottom: 5px;
+  right: 5px;
+}
+
+.rank {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+} */
+
+/* src/App.css */
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hand {
+  margin: 10px;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 60px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.top-left-suit,
+.bottom-right-suit {
+  position: absolute;
+}
+
+.top-left-suit {
+  top: 5px;
+  left: 5px;
+}
+
+.bottom-right-suit {
+  bottom: 5px;
+  right: 5px;
+}
+
+.rank {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
